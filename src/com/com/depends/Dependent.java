@@ -6,7 +6,9 @@ public class Dependent {
   @Test(dependsOnMethods="openbrowser")
   public void signin() {
 	  
-	  System.out.println("i am sigin");
+	  System.out.println("i am sigin1");
+	  System.out.println("i am sigin2");
+	  System.out.println("i am sigin3");
   }
   @Test
  public void openbrowser() {
